@@ -1,4 +1,5 @@
-AVRCC		= avr-gcc -mmcu=attiny2313 -DF_CPU=80000000
+# disable CKDIV8 fuse setting
+AVRCC		= avr-gcc -mmcu=attiny2313 -DF_CPU=8000000
 AVROBJCOPY      = avr-objcopy
 AVRCFLAGS       = -Wall -Os -g -Wall -I.
 
