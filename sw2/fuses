@@ -1,0 +1,4 @@
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:E4)
+
+^^ internal osc @ 8MHz, CKDIV8 disabled => 8 MHz
+
